@@ -1,27 +1,211 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
-
+    <!-- INFORMACION DE PAGINA -->
+    <meta name="keywords" content="agencia de viajes, lugares turísticos, Chile, turismo" />
+    <meta name="description" content="landing page agencia de viajes Chile" />
+    <meta name="author" content="Ruben Vicencio" />
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- FUENTES PAGINA WEB     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- FAVICON DE LA PAGINA -->
+    <link rel="icon" href="assets/img/fav-plane.png" type="image/png" />
     <!-- CSS PROPIO -->
-
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- TITULO DE LA PAGINA -->
-    <title>Document</title>
+    <title>Viajes Chile - Rubén Vicencio</title>
 </head>
 
 <body>
+    <!-- CABECERA -->
+    <header>
+        <!-- BARRA DE NAVEGACION -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
+            <!-- <div class="container px-4">
+                <img src="assets/img/viajes.svg" alt="viajes">
+                <h1 class="logo">Viajes Chile</h1> -->
+            <div class="container-fluid">
+                <a class="navbar-brand fixed-top" href="#">
+                    <img id="logo_avion" src="assets/img/viajes.svg" alt="icono">
+                    <!-- class="d-inline-block align-text-top" -->
+                    Viajes Chile
+                </a>
+
+                <button class="navbar-toggler fixed-top ms-auto mb-2 mb-lg-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="listas_inicio collapse navbar-collapse fixed-top" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#">Destacados</a>
+                        <a class="nav-link" href="#">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- FIN BARRA DE NAVEGACION -->
+        <!-- CARRUSEL -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carrusel 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carrusel 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carrusel 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- FINCARRUSEL -->
+        <!-- FIN CABECERA -->
+    </header>
+    <!-- CUADRO PRINCIPAL NEGRO -->
+    <main>
+        <!-- SECCION QUIENES SOMOS -->
+        <section class="somos">
+            <h2 class="text-center">¿Quiénes Somos?</h2>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col d-inline-block">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nihil porro pariatur rem
+                            blanditiis
+                            dolores quae, ab vitae facilis ex esse architecto veniam sed! Velit laudantium beatae neque
+                            placeat
+                            similique.</p>
+                    </div>
+                    <div class="col d-inline-block">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nihil porro pariatur rem
+                            blanditiis
+                            dolores quae, ab vitae facilis ex esse architecto veniam sed! Velit laudantium beatae neque
+                            placeat
+                            similique.</p>
+                    </div>
+                    <div class="col d-inline-block">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nihil porro pariatur rem
+                            blanditiis
+                            dolores quae, ab vitae facilis ex esse architecto veniam sed! Velit laudantium beatae neque
+                            placeat
+                            similique.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- FIN SECCION QUIENES SOMOS -->
+        <!-- CARDS DESTACADOS -->
+        <section class="destacados">
+            <h2 class="text-center">Destacados</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/card1.jpg" class="card-img-top" alt="card 1">
+                            <div class="card-body">
+                                <h5>Lorem ipsum dolor</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                                    alias reiciendis optio est quo nobis quia culpa error veritatis fugit vel explicabo
+                                    voluptatum eum quam, vitae, atque quisquam iure. Saepe.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/card2.jpg" class="card-img-top" alt="card 2">
+                            <div class="card-body">
+                                <h5>Consectetur adipisicing elit.</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
+                                    distinctio minima recusandae quod perferendis quas pariatur hic unde quasi sequi
+                                    nostrum, aliquam consectetur magnam porro provident, ipsum aperiam odio adipisci!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/card3.jpg" class="card-img-top" alt="card 3">
+                            <div class="card-body">
+                                <h5>Harum minima quaerat voluptate suscipit.</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                                    repellendus iusto autem velit, natus dolor ex reprehenderit commodi debitis
+                                    voluptate quam aliquid, repellat ducimus dolore quas modi! Maxime, soluta dolore?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/card4.jpg" class="card-img-top" alt="card 4">
+                            <div class="card-body">
+                                <h5>Veniam aperiam molestiae omnis.</h5>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                                    ipsam corrupti culpa. Vero ea nam enim dolorem. Ipsum inventore id, pariatur est
+                                    neque, explicabo qui voluptatum, veniam aperiam molestiae omnis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIN CARDS DESTACADOS -->
+                    <!-- SECCION DE CONTACTO -->
+                    <section class="contacto">
+                        <h2 class="text-center">CONTACTO</h2>
+
+                    </section>
+                    <!-- FIN SECCION DE CONTACTO -->
+                    <!-- FOOTER ICONOS -->
+
+                    <!-- FIN FOOTER ICONOS -->
+    </main>
+    <!-- FINCUADRO PRINCIPAL NEGRO -->
 
 
 
 
 
 
+
+
+
+
+
+    <!-- SCRIPT DE PAGINA WEB     -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- SCRIPT DE JQUERY     -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- SCRIPT DE BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
