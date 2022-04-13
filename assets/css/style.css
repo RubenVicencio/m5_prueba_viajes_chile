@@ -32,5 +32,17 @@ main {
 }
 
 .card-body {
-  background-color: rgb(34, 209, 209);
+  background-color: #0ccbf1;
+}
+
+.somos {
+  line-height: 2rem;
+}
+
+.strip-icon {
+  background-color: #0ccbf1;
+}
+
+.iconos_card {
+  background-color: #0ccbf1;
 }
