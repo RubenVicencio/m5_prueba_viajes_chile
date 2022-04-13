@@ -36,6 +36,10 @@ body {
   width: 100vw;
 }
 
+a {
+  color: white;
+  font-weight: bolder;
+}
 .card-body {
   background-color: #0ccbf1;
 }
