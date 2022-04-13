@@ -44,6 +44,9 @@ a {
   background-color: #0ccbf1;
 }
 
+.card img {
+  height: 12.5rem;
+}
 .somos {
   line-height: 2rem;
 }
