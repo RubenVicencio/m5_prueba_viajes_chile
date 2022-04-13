@@ -49,9 +49,9 @@
                 <div class="listas_inicio collapse navbar-collapse fixed-top" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <a class="nav-link" href="#">Inicio</a>
-                        <a class="nav-link" href="#">Quienes Somos</a>
-                        <a class="nav-link" href="#">Destacados</a>
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#QSomos">Quienes Somos</a>
+                        <a class="nav-link" href="#destaca">Destacados</a>
+                        <a class="nav-link" href="#contact">Contacto</a>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@
         <!-- SECCION QUIENES SOMOS -->
         <section class="somos">
             <div class="py-5">
-                <h2 class="text-center py-5">¿QUIÉNES SOMOS?</h2>
+                <h2 class="text-center py-5" id="QSomos">¿QUIÉNES SOMOS?</h2>
                 <div class="container">
                     <div class="row py-5">
                         <div class="col d-inline-block">
@@ -143,7 +143,7 @@
         <!-- FIN SECCION QUIENES SOMOS -->
         <!-- CARDS DESTACADOS -->
         <section class="destacados">
-            <h2 class="text-center pb-5">DESTACADOS</h2>
+            <h2 class="text-center pb-5" id="destaca">DESTACADOS</h2>
             <div class="container">
                 <div class="row pt-4">
                     <div class="col">
@@ -197,23 +197,21 @@
                     <!-- FIN CARDS DESTACADOS -->
                     <!-- SECCION DE CONTACTO -->
                     <section class="contacto">
-                        <h2 class="text-center py-5">CONTACTO</h2>
+                        <h2 class="text-center py-5" id="contact">CONTACTO</h2>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com">
+                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com">
+                            <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="pb-5">
-                            <button type="button" class="btn btn-primary">Primary</button>
+                            <button type="button" class="btn btn-light">Enviar</button>
                         </div>
                     </section>
     </main>
@@ -228,16 +226,19 @@
                 <div class="col-7">
                     <div class="row">
                         <div class="col-2">
-                            <i class="fa-brands fa-github fa-3x"></i>
+                            <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a>
                         </div>
                         <div class="col-2">
-                            <i class="fab fa-linkedin fa-3x"></i>
+                            <a href="https://www.linkedin.com/" target="_blank"><i
+                                    class="fab fa-linkedin fa-3x"></i></a>
                         </div>
                         <div class="col-2">
-                            <i class="fa-brands fa-twitter-square fa-3x"></i>
+                            <a href="https://twitter.com/" target="_blank"><i
+                                    class="fa-brands fa-twitter-square fa-3x"></i></a>
                         </div>
                         <div class="col-2">
-                            <i class="fa-brands fa-facebook-square fa-3x"></i>
+                            <a href="https://www.facebook.com/" target="_blank"><i
+                                    class="fa-brands fa-facebook-square fa-3x"></i></a>
                         </div>
                     </div>
                 </div>

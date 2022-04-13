@@ -46,3 +46,12 @@ main {
 .iconos_card {
   background-color: #0ccbf1;
 }
+
+button {
+  background-color: #0ccbf1;
+}
+
+.fa-3x {
+  margin: 0 0.3em;
+  color: white !important;
+}
