@@ -41,10 +41,10 @@
                     <!-- class="d-inline-block align-text-top" -->
                     Viajes Chile
                 </a>
-                <button class="navbar-toggler fixed-top justify-content-end" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler fixed-top " style="float:right" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon position-relative top-0 start-0"></span>
                 </button>
                 <div class="listas_inicio collapse navbar-collapse fixed-top pe-5 pt-3" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -92,7 +92,7 @@
                 <h2 class="text-center py-5 border-bottom" id="QSomos">¿QUIÉNES SOMOS?</h2>
                 <div class="container">
                     <div class="row py-5">
-                        <div class="col d-inline-block">
+                        <div class="col-xs-12 col-sm-6 col-lg-4 d-inline-block">
                             <div class="strip-icon text-center"> <i class="fa-solid fa-plane"></i></div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nihil porro pariatur
                                 rem
@@ -106,7 +106,7 @@
                                 vero impedit nihil eos sequi sunt reiciendis.
                             </p>
                         </div>
-                        <div class="col d-inline-block">
+                        <div class="col-xs-12 col-sm-6  col-lg-4  d-inline-block">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nihil porro pariatur
                                 rem
                                 blanditiis
@@ -119,10 +119,10 @@
                                 sunt
                                 deleniti commodi dolorem officia, ad atque. Nobis, quasi!
                             </p>
-                            <div class="strip-icon text-center"><i class=" fa-solid fa-mountain"></i>
+                            <div class="strip-icon text-center my-3"><i class=" fa-solid fa-mountain"></i>
                             </div>
                         </div>
-                        <div class="col d-inline-block">
+                        <div class="col-xs-12 col-sm-6  col-lg-4  d-inline-block">
                             <div class="strip-icon text-center"><i class=" fa-solid fa-route"></i></div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nihil porro pariatur
                                 rem
@@ -142,7 +142,7 @@
         </section>
         <!-- FIN SECCION QUIENES SOMOS -->
         <!-- CARDS DESTACADOS -->
-        <section class="destacados">
+        <section class="destacados 	d-none d-sm-block">
             <h2 class="text-center pb-5 border-bottom" id="Destaca">DESTACADOS</h2>
             <div class="container">
                 <div class="row pt-4">
@@ -194,33 +194,36 @@
                             </div>
                         </div>
                     </div>
-                    <!-- FIN CARDS DESTACADOS -->
-                    <!-- SECCION DE CONTACTO -->
-                    <section class="contacto">
-                        <h2 class="text-center py-5 border-bottom" id="Contact">CONTACTO</h2>
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Asunto</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                        <div class="pb-5">
-                            <button type="button" class="btn btn-light">Enviar</button>
-                        </div>
-                    </section>
-                    <!-- FIN SECCION DE CONTACTO -->
+                </div>
+            </div>
+        </section>
+        <!-- FIN CARDS DESTACADOS -->
+        <!-- SECCION DE CONTACTO -->
+        <section class="contacto">
+            <h2 class="text-center py-5 border-bottom" id="Contact">CONTACTO</h2>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="pb-5">
+                <button type="button" class="btn btn-light">Enviar</button>
+            </div>
+        </section>
+        </div>
+
+        <!-- FIN SECCION DE CONTACTO -->
     </main>
-
     <!-- FINCUADRO PRINCIPAL NEGRO -->
-
     <!-- FOOTER ICONOS -->
-    <footer class="iconos_card d-none d-md-block">
+    <footer class="iconos_card d-md-block">
         <div class="container py-4">
             <div class="row">
                 <div class="col-4">
@@ -250,9 +253,6 @@
         </div>
     </footer>
     <!-- FIN FOOTER ICONOS -->
-
-
-
     <!-- SCRIPT DE JQUERY     -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
